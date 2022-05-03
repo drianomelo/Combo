@@ -1,7 +1,7 @@
 :root {
     --branco-principal: #FFFFFF;
     --cinza-secundário: #C0C0C0;
-    --botao-azul: #167BF7;
+    --botao-laranja: #f79d16;
     --cor-de-fundo: #00030C;
     --fonte-principal: 'Inter';
 }
@@ -38,7 +38,7 @@ img {
 }
 
 .container__botao {
-    background: var(--botao-azul);
+    background: var(--botao-laranja);
     border-radius: 5px;
     padding: 1em;
     color: var(--branco-principal);
