@@ -2,7 +2,7 @@
     --branco-principal: #FFFFFF;
     --cinza-secundário: #C0C0C0;
     --botao-laranja: #f79d16;
-    --cor-de-fundo: #00030C;
+    --cor-de-fundo: #000000;
     --fonte-principal: 'Inter';
 }
 
@@ -68,4 +68,28 @@ img {
 
 .container__caixa {
     margin: 0 6em;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 12em;
+}
+
+.secundario__imagem {
+    width: 80%;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    color: var(--cinza-secundário);
+}
+
+.container__descricao {
+    
 }
