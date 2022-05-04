@@ -4,6 +4,7 @@
     --botao-laranja: #f79d16;
     --cor-de-fundo: #000000;
     --fonte-principal: 'Inter';
+    --botao-laranja-efeito: #d98910;
 }
 
 body {
@@ -45,6 +46,11 @@ img {
     display: block;
     text-decoration: none;
     margin-bottom: 1em;
+}
+
+.container__botao:hover {
+    background-color: var(--botao-laranja-efeito);
+    color: var(--cor-de-fundo);
 }
 
 .botao_secundario {
@@ -147,3 +153,11 @@ img {
     text-decoration: none;
     margin-left: 1em;
 }
+
+.lista__link a:hover {
+    color: var(--botao-laranja);
+}
+
+.lista__link a:active {
+    color: green;
+} 
